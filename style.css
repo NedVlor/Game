@@ -1,0 +1,32 @@
+.block{
+    height: 2rem;
+    width: 2rem;
+    background: grey;
+    display: inline-block;
+    background-size: contain;
+}
+.solid{
+    background-image:url(assets/img/wall.jpg);
+}
+.row{
+    display: flex;
+}
+body{
+    background: #333;
+}
+.empty{
+    background-image:url(assets/img/grass3.jpg) ;
+}
+.char{
+    height: 2rem;
+    width: 2rem;
+    background-image:url(assets/img/char2.png);
+    background-position: 94px -8px;
+    background-size: 209px 177px;
+    position: absolute;
+    left: 4rem;
+    top: 4rem;
+}
+.game{
+    position: relative;
+}
